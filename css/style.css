@@ -1,3 +1,5 @@
+/* general styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -92,9 +94,8 @@ h1 {
     align-items: center;
 }
 
-.highlights h1 {
-    font-size: 50px;
-    margin-bottom: 0;
+.highlights h2 {
+    font-size: 36px;
 }
 
 .highlights p {
@@ -125,3 +126,84 @@ footer img {
 
 /* media query css */
 
+/* For Mobile Devices */
+@media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 42px;
+    }
+    
+    /* top banner styles */
+
+    .top-banner {
+        flex-direction: column;
+    }
+
+    .half-width {
+        width: 90%;
+    }
+
+    /* photo album styles */
+
+    .photo-album {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* stats styles */
+
+    .stats h1 {
+        font-size: 36px;
+    }
+
+    /* highlight styles */
+
+    .highlights {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .highlights h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    /* footer styles */
+
+    footer img {
+        width: 45%;
+    }
+}
+
+/* For Tablet Devices */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    h1 {
+        font-size: 48px;
+    }
+
+    /* styles for top-banner */
+    .top-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .half-width {
+        width: 90%;
+    }
+
+    /* styles for photo-album */
+    .photo-album {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* styles for highlights section */
+    .highlights {
+        flex-direction: column;       
+    }
+
+    /* styles for footer */
+    footer img {
+        width: 45%;
+    }
+}
