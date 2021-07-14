@@ -37,3 +37,24 @@ h1 {
 .half-width img {
     width: 100%;
 }
+
+
+/* photo album styles */
+
+.photo-album {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.frame {
+    padding: 15px;
+    box-shadow: 0 0 10px #aaaaaa;
+}
+
+.frame img {
+    width: 100%;
+}
