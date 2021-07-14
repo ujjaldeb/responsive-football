@@ -59,6 +59,47 @@ h1 {
     width: 100%;
 }
 
+/* stats section styles */
+
+.stats {
+    padding: 50px 0;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.stats h1 {
+    margin-bottom: 0;
+}
+
+.stats a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+.stats a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+/* highlights section styles */
+
+.highlights {
+    display: flex;
+    align-items: center;
+}
+
+.highlights h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.highlights p {
+    margin-bottom: 30px;
+}
 
 /* footer styles */
 
@@ -80,3 +121,7 @@ footer img {
     color: #777777;
     margin-right: 14px;
 }
+
+
+/* media query css */
+
